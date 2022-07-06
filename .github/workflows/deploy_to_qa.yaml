@@ -1,6 +1,9 @@
 name: Despliegue a QA
 
-on: pull_request
+on:
+    pull_request:
+        branches:
+            - qa
 
 jobs:
     greet:
